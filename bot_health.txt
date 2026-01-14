@@ -523,7 +523,7 @@ async def create_menu(update: Update, context: ContextTypes.DEFAULT_TYPE):
         )
 
 def main():
-    TOKEN = "8233606501:AAGvdgUM8HQLPJ82g8xUAKU1ckUehBNtavE"
+    TOKEN = "token"
 
     app = Application.builder().token(TOKEN).build()
 
@@ -561,3 +561,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
